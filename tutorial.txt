@@ -49,3 +49,12 @@ Gerar token GitHub
 2) Developer Settings
 3) Token classic
 4) Gerar o token selecionando tudo, guardar o token
+
+
+Boas praticas na  programação
+1) Cabeçalho de documentação
+/**
+Nome do projeto, ou descrição da classe, ou função
+@autor Caio Lopes
+@version 1.0
+*/

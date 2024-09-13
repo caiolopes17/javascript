@@ -1,0 +1,19 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "Tutorial de lógica de programação com Java Script",
+  "main": "hello.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiolopes17/javascript.git"
+  },
+  "author": "Caio Lopes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caiolopes17/javascript/issues"
+  },
+  "homepage": "https://github.com/caiolopes17/javascript#readme"
+}
