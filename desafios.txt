@@ -1,0 +1,3 @@
+Desafio 1: "A hora do código"
+https://hourofcode.com/br/learn
+Escolher um desafio "A hora do código", fazer e ao final salvar o certificado, postar no linkedin e marcar o professor: @professorjosedeassis (caso não tenha linkedin, mostrar ao professor)
