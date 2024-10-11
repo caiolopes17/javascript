@@ -50,4 +50,4 @@ console.log("")
 console.log(`Valor pago em dinheiro: R$ ${valorPago.toFixed(2)}`)
 console.log(`Troco: R$ ${troco.toFixed(2)}`)
 console.log("----------------------------------------------")
-
+  
