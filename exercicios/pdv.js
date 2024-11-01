@@ -20,11 +20,11 @@ console.log("|__j  l_____j  \\_/  ")
 console.log("")
 
 // entrada 1
-total = Number(input.question("Digite o valor total da compra: "))
-desconto = Number(input.question("Digite o valor do desconto em %"))
+total = Number(input.question("Digite o valor total da compra: ")) //100
+desconto = Number(input.question("Digite o valor do desconto em %")) //10
 
 // processamento 1
-valorDesconto = total - (desconto * total) / 100
+valorDesconto = total - (desconto * total) / 100  //100 - (10 * 100) : 100 
 
 // processameno 2
 totalDesconto = total - valorDesconto
