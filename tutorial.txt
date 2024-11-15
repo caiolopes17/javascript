@@ -105,3 +105,77 @@ console.clear() -> Limpar a tela do console
 const -> criar(declarar) uma constante
 let -> criar(declarar) uma variável
 typeof() -> verificar o tipo de variável
+
+_____________________________________________________
+Estruturas de controle
+- condicionais
+- laços de repetições
+
+Estruturas de controle condicionais
+if (condição) {
+    //condição verdadeira
+}
+
+if (condição){
+//condição verdadeira
+} else {
+    //condição falsa
+}
+
+Observações
+1) Uma condição nunca pode ser verdadeira e falsa simultaneamente.
+2) No uso do if-else sempre uma das condiçoes será processada.
+
+if (condição 1) {
+//condição 1 verdadeira
+} else if (condição 2) {
+    //condição 2 verdadeira
+} else {
+    //condição falsa
+}
+
+Obs: Nesta estrutura o else é opcional, porém se indicado caso não nenhuma condição for verdadeira
+ele obrigatótiamente executará o que estiver no else.
+
+switch case (uso de variável numérica (número inteiro))
+
+switch (cariável) {
+    case: 1:
+    // código caso o valor da variável seja 1 break
+    case: 2:
+    // código caso o valor da variável seja 2 break
+    defaut:
+    // opcinal, o código será executado se nenhum caso for definido
+    break
+}
+
+Estruturas de controle - Laços de repetições
+for (let i = 1; < 10; i++) {
+// o código aqui dentro será repetido nquanto a condição for verdadeira
+}
+
+// Laço com numeros de repetições definidas
+// let i = 1 (inicio)
+//i < 10 (condição)
+//i++ (incremento) i-- (decremento)
+
+Uso do laço for:
+1) Percorrer uma estrutura de dados (Importamte)
+2) Simplificar o código 
+3) Fazer calcúlços levando em conta a variável interna do laço
+
+while (condição) {
+    //condição verdadeira
+}
+
+do {
+    //executar o código uma vez independente da condição e depois analisa a condição
+} while (condição)
+
+As estruturas while e do-while são estruturas de repetições infinitas, ou seja enquato
+a condição for verdadeira o código interno será repetido infinitamente
+
+_______________________________________________________________________________________
+Executando JavaScript junto com HTML
+- Execução interna no próprio documento HTML
+- Link com um documento JS (preferencialmente)

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/caiolopes17/javascript#readme",
   "dependencies": {
+    "colors": "^1.4.0",
     "readline-sync": "^1.4.10"
   }
 }
