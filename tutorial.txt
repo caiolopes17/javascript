@@ -179,3 +179,25 @@ ________________________________________________________________________________
 Executando JavaScript junto com HTML
 - Execução interna no próprio documento HTML
 - Link com um documento JS (preferencialmente)
+
+________________________________________________________________________________________
+POO(Programação orientada a objetos)
+
+Objetos -> estrutura de dados
+
+Conceito relacionado a estruturas de dados:
+CRUD (Creat Read Update Delete)
+São as 4 operações básicas que podemos realizar com a estrutura de dados:
+Create: Inserção de dados na estruturaRead: Pesquisa de dados na estrutura
+Read: Pesquisa de dados na estrutura
+Update: Alteração de dados na estrutura
+Delete: Exclusão de dados
+
+Pilares da programação orientada a objetos
+// Reutilização
+Abstração
+Herança
+Polimorfismo
+
+// Segurança
+Encapsulamento
