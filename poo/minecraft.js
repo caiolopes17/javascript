@@ -8,7 +8,7 @@ console.clear()
 
 //criando a classe modelo
 class Bloco {           //Sempre quando alguma palavra começar com letra maiuscula é "Classe Modelo"
-    //atributos
+                        //atributos
     constructor(textura, resistencia) {
         this.textura = textura
         this.resistencia = resistencia

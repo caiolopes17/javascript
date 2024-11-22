@@ -6,6 +6,7 @@
 // Importar a biblioteca
 const input = require('readline-sync')
 
+
 // Variáveis
 let consumo, peso
 
@@ -19,6 +20,6 @@ peso= Number(input.question("Digite o seu peso em KG: "))
 consumo = peso * 0.035 // (35 ml de água por cada kg)
 
 // Saida - Resultado do processamento
-console.log(`Consumo diário de agu DEVE Ser: $
+console.log(`Consumo diário de agua deve ser: $
 {consumo.toFixed(3)} litros`) // toFixed para deixar limitado á 3 caracteres de ml
 

@@ -201,3 +201,15 @@ Polimorfismo
 
 // Segurança
 Encapsulamento
+
+Observações:
+Toda classe modelo obrigatoriamente deve iníciar com letra maiúscula
+
+dica:
+
+Classe (biologia Ex: Mamíferos)
+
+Lingua Portuguesa:
+Objeto (substantivo) "pessoa"
+Atributo(adjetivo) "Azul"
+Métodos (verbos) "cadastrar, calcular tudo que for ação de alguma coisa
