@@ -15,18 +15,63 @@ class Carro {
     }
 
     ligar() {
-        console.log(this.ligado = true);
         console.log("Carro ligado.");
     }
 
     desligar() {
-        console.log(this.ligado = false);
-        console.log(this.velocidade = 0);
         console.log("Carro desligado.");
     }
 
     acelerar() {
-        console.log(this.acelerar = true)
-        console.log("Acelerar")
+
+        console.log("Carro Acelerando")
+    }
+
+    criarCarro() {
+        console.log("Carro Criado")
+        console.log(`ano: ${this.ano}`)
+        console.log(`cor: ${this.cor}`)
     }
 }
+
+const carro = new Carro(1995, "verde")
+carro.criarCarro()
+carro.ligar()
+carro.acelerar()
+carro.desligar()
+
+class Aviao extends Carro{
+    //atributos
+    constructor(ano, cor, companhia) {
+        super(ano, cor) // herança
+        this.companhia = companhia
+    }
+    
+
+ligar() {
+    console.log("Avião Ligado.");
+}
+
+desligar() {
+    console.log("Avião desligado.");
+}
+
+acelerar() {
+
+    console.log("Avião Pousando")
+}
+
+criarAviao() {
+    console.log("Avião Criado")
+    console.log(`ano: ${this.ano}`)
+    console.log(`cor: ${this.cor}`)
+    console.log(`companhia: ${this.companhia}`)
+}
+}
+
+const aviao = new Aviao(2010, "Branco", "Vasp")
+aviao.criarAviao()
+aviao.ligar()
+aviao.acelerar()
+aviao.desligar()
+
