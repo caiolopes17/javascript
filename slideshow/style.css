@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+/* classes q serão manipuladas pelo js
+easy-in-out (efeito de transição suave)
+.slideEsq e .slideDir (classes q serão adicionadas ao HTML
+pelo js)
+transition transform (efeitos de animação do CSS ( rolagem na horizontal e fade)  */
+
+#slide {
+    transition: transform is ease-in-out, opacity is ease-in-out;
+}
+
+/*saida*/
+#slide.slideesq {
+    transform: translateX(-100%);
+    opacity: 0; /* tortalmente transparente */
+}
+
+/*entrada*/
+#slide.slideDir {
+    transform:translateX(0);
+    opacity: 1; /* solido */
+}
