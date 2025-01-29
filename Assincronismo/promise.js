@@ -8,10 +8,10 @@ const input = require('readline-sync')
 
 let login, senha
 
-//estrutura de dados (simular um banco de dados)
+//estruturas de dad (simular um banco de dados)
 const database = {
     admin: {
-        usuario: "administrador",
+        usuario: "Administrador",
         senha: "password"
     },
     prof: {
@@ -20,14 +20,15 @@ const database = {
     }
 }
 
-// Autentificação de usuário
+//autenticaçao do usuario
 console.clear()
-console.log("------------------------")
-console.log("       USUÁRIO")
-console.log("------------------------")
+console.log("-------------------------")
+console.log("      USUARIO")
+console.log("-------------------------")
 login = input.question("login: ")
 senha = input.question("senha: ")
-console.log("------------------------")
+console.log("-------------------------")
+console.log("")
 
 function logar(login, senha) {
     //uso de promise (aceso ao "banco de dados")
@@ -37,23 +38,22 @@ function logar(login, senha) {
             if (database.hasOwnProperty(login)) {
                 //se a senha estiver correta
                 if (database[login].senha === senha) {
-                    resolv("autenticação bem sucedida. Olá, " + database[login].usuario)
+                    resolv("autenticaçao bem sucedida. ola, " + database[login].usuario)
                 } else {
                     reject("senha incorreta, por favor, tente novamente")
                 }
             } else {
-                reject("Usuário não encontrado")
+                reject(" Usuario não encontrado")
             }
         }, 2000)
     })
 }
-
-//executar a função logar()
-//no uso de promise é necessário usar o .then
+//executar a funçao logar()
+//no uso de promise é necessario usar o.them
 logar(login, senha)
-.then((message) => {
-    console.log(message)
-})
-.catch((error) => {
-    console.log("erro de autenticação: " + error)
-})
+    .then((message) => {
+        console.log(message)
+    })
+    .catch((error) => {
+        console.log("erro de autenticaçao." + error)
+    })
